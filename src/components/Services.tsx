@@ -18,7 +18,7 @@ const Services: React.FC = () => {
       name: "The Starter",
       originalPrice: "৳599",
       discountedPrice: "৳499",
-      duration: "10 mins",
+      duration: "10 mins +",
       participants: "1 person",
       icon: Hammer,
       features: [
@@ -32,7 +32,7 @@ const Services: React.FC = () => {
       name: "The Double Trouble",
       originalPrice: "৳999",
       discountedPrice: "৳899",
-      duration: "15 mins",
+      duration: "15 mins +",
       participants: "2 people",
       icon: Users,
       popular: true,
@@ -47,8 +47,8 @@ const Services: React.FC = () => {
       name: "The Ultimate Rage",
       originalPrice: "৳1,599",
       discountedPrice: "৳1,499",
-      duration: "20 mins",
-      participants: "3-6 people",
+      duration: "20 mins +",
+      participants: "1-3 people",
       icon: Star,
       features: [
         "10 glass bottles",
@@ -135,8 +135,8 @@ const Services: React.FC = () => {
                   <div className="mb-4">
                     <div className="text-lg text-gray-400 line-through mb-1">{pkg.originalPrice}</div>
                     <div className="text-4xl font-display font-bold text-primary mb-2">{pkg.discountedPrice}</div>
-                    <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-semibold inline-block">
-                      20 Days Only!
+                    <div className="text-primary text-sm font-semibold mt-2">
+                      Till July 31st!
                     </div>
                   </div>
                   
@@ -150,6 +150,13 @@ const Services: React.FC = () => {
                       <span>{pkg.participants}</span>
                     </div>
                   </div>
+                  
+                  {/* Additional charge info for Ultimate Rage */}
+                  {pkg.name === "The Ultimate Rage" && (
+                    <div className="bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded-md mt-2">
+                      Extra ৳500 charge for every additional person
+                    </div>
+                  )}
                 </div>
 
                 {/* Features List */}
@@ -166,7 +173,7 @@ const Services: React.FC = () => {
                 <button
                   onClick={scrollToContact}
                   className={`w-full py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 ${
-                    pkg.popular
+                    pkg.popular || pkg.name === "The Double Trouble"
                       ? 'bg-primary hover:bg-primary-700 text-white shadow-lg hover:shadow-primary/30'
                       : 'bg-gray-800 hover:bg-primary text-white border border-gray-600 hover:border-primary'
                   }`}

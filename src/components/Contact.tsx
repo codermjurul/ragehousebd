@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
       icon: Phone,
       title: "Phone",
       details: [
-        "+880 1727-546095",
+        "+880 1339-491027",
         "+880 1316-314296"
       ]
     },
@@ -91,8 +91,8 @@ const Contact: React.FC = () => {
       icon: Clock,
       title: "Operating Hours",
       details: [
-        "Mon - Thu: 2PM - 10PM",
-        "Fri - Sun: 12PM - 11PM",
+        "Sat - Thu: 1PM - 11PM",
+        "Fri: 3PM - 11PM",
         "Closed on Public Holidays"
       ]
     }
@@ -337,7 +337,7 @@ const Contact: React.FC = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="tel:+8801727546095"
+                  href="tel:+8801339491027"
                   className="bg-primary hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold text-center transition-all duration-200"
                 >
                   Call Now
