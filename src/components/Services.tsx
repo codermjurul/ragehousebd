@@ -24,14 +24,13 @@ const Services: React.FC = () => {
       features: [
         "3 glass bottles",
         "4 clay items",
-        "1 keyboard",
-        "1 small TV"
+        "1 keyboard"
       ]
     },
     {
       name: "The Double Trouble",
-      originalPrice: "৳999",
-      discountedPrice: "৳899",
+      originalPrice: "৳1,099",
+      discountedPrice: "৳999",
       duration: "15 mins +",
       participants: "2 people",
       icon: Users,
