@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
                 BREAK EVERYTHING
               </h1>
               <p className="font-body text-lg sm:text-xl md:text-2xl text-gray-300 mt-6 max-w-2xl leading-relaxed">
-                Bangladesh's premier rage room experience. Smash, break, and destroy in a safe, controlled environment.
+                Bangladesh's <span className="font-bold">first ever</span> premier rage room experience. Smash, break, and destroy in a safe, controlled environment.
               </p>
             </div>
 
