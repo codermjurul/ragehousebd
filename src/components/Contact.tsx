@@ -185,7 +185,7 @@ const Contact: React.FC = () => {
                   >
                     <option value="">Select a package</option>
                     <option value="starter">The Starter - ৳499</option>
-                    <option value="double">The Double Trouble - ৳899</option>
+                    <option value="double">The Double Trouble - ৳999</option>
                     <option value="ultimate">The Ultimate Rage - ৳1,499</option>
                   </select>
                 </div>
