@@ -79,18 +79,6 @@ const Services: React.FC = () => {
             Select the perfect rage room experience for your needs. All packages include safety equipment, 
             professional supervision, and an unforgettable stress-relief session.
           </p>
-          
-          {/* Limited Time Offer Banner */}
-          <div className="bg-gradient-to-r from-primary/20 to-primary/10 border border-primary/30 rounded-lg p-4 max-w-2xl mx-auto">
-            <div className="flex items-center justify-center space-x-2 text-primary font-semibold">
-              <Star className="h-5 w-5 animate-pulse" />
-              <span className="text-lg">LIMITED TIME OFFER - 20 DAYS ONLY!</span>
-              <Star className="h-5 w-5 animate-pulse" />
-            </div>
-            <p className="text-gray-300 text-sm mt-2">
-              Get exclusive discounts on all packages. Book now before the offer expires!
-            </p>
-          </div>
         </div>
 
         {/* Pricing Cards */}
