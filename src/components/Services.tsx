@@ -16,7 +16,7 @@ const Services: React.FC = () => {
   const packages: Package[] = [
     {
       name: "The Starter",
-      originalPrice: "৳599",
+      originalPrice: "৳499",
       discountedPrice: "৳599",
       duration: "10 mins +",
       participants: "1 person",
@@ -29,7 +29,7 @@ const Services: React.FC = () => {
     },
     {
       name: "The Double Trouble",
-      originalPrice: "৳1,099",
+      originalPrice: "৳999",
       discountedPrice: "৳1,099",
       duration: "15 mins +",
       participants: "2 people",
@@ -44,7 +44,7 @@ const Services: React.FC = () => {
     },
     {
       name: "The Ultimate Rage",
-      originalPrice: "৳1,599",
+      originalPrice: "৳1,499",
       discountedPrice: "৳1,599",
       duration: "20 mins +",
       participants: "1-3 people",
