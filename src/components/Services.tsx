@@ -17,7 +17,7 @@ const Services: React.FC = () => {
     {
       name: "The Starter",
       originalPrice: "৳599",
-      discountedPrice: "৳499",
+      discountedPrice: "৳599",
       duration: "10 mins +",
       participants: "1 person",
       icon: Hammer,
@@ -30,7 +30,7 @@ const Services: React.FC = () => {
     {
       name: "The Double Trouble",
       originalPrice: "৳1,099",
-      discountedPrice: "৳999",
+      discountedPrice: "৳1,099",
       duration: "15 mins +",
       participants: "2 people",
       icon: Users,
@@ -45,7 +45,7 @@ const Services: React.FC = () => {
     {
       name: "The Ultimate Rage",
       originalPrice: "৳1,599",
-      discountedPrice: "৳1,499",
+      discountedPrice: "৳1,599",
       duration: "20 mins +",
       participants: "1-3 people",
       icon: Star,
@@ -104,13 +104,6 @@ const Services: React.FC = () => {
                   </div>
                 )}
 
-                {/* Discount Badge */}
-                <div className="absolute -top-3 -right-3">
-                  <div className="bg-gradient-to-r from-primary to-red-600 text-white px-3 py-1 rounded-full text-xs font-bold transform rotate-12 shadow-lg">
-                    SAVE ৳100
-                  </div>
-                </div>
-
                 {/* Package Header */}
                 <div className="text-center mb-8">
                   <div className="bg-primary/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4 animate-float">
@@ -118,13 +111,9 @@ const Services: React.FC = () => {
                   </div>
                   <h3 className="font-display font-bold text-2xl text-white mb-4">{pkg.name}</h3>
                   
-                  {/* Pricing with Discount */}
+                  {/* Pricing */}
                   <div className="mb-4">
-                    <div className="text-lg text-gray-400 line-through mb-1">{pkg.originalPrice}</div>
                     <div className="text-4xl font-display font-bold text-primary mb-2">{pkg.discountedPrice}</div>
-                    <div className="text-primary text-sm font-semibold mt-2">
-                      Till July 31st!
-                    </div>
                   </div>
                   
                   <div className="text-gray-400 space-y-1">

@@ -184,9 +184,9 @@ const Contact: React.FC = () => {
                     className="w-full px-4 py-3 bg-dark-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <option value="">Select a package</option>
-                    <option value="starter">The Starter - ৳499</option>
-                    <option value="double">The Double Trouble - ৳999</option>
-                    <option value="ultimate">The Ultimate Rage - ৳1,499</option>
+                    <option value="starter">The Starter - ৳599</option>
+                    <option value="double">The Double Trouble - ৳1,099</option>
+                    <option value="ultimate">The Ultimate Rage - ৳1,599</option>
                   </select>
                 </div>
               </div>
