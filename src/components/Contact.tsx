@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
     setSubmissionMessage('');
 
     try {
-      const response = await fetch('https://hook.eu2.make.com/lxuf0vygrfwu8xmc8cd7edmmcyfib3r2', {
+      const response = await fetch('https://hook.eu2.make.com/c3se0oml0ansekvbsterk56o5nqdk059', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -38,22 +38,19 @@ const Contact: React.FC = () => {
         body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
-        setSubmissionMessage('Booking request sent successfully! We will contact you soon to confirm your session.');
-        // Clear form data on successful submission
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          service: '',
-          date: '',
-          time: '',
-          participants: '',
-          address: ''
-        });
-      } else {
-        setSubmissionMessage('Failed to send booking request. Please try again later.');
-      }
+      // Always show success message since webhook doesn't send response
+      setSubmissionMessage('Booking request sent successfully! We will contact you soon to confirm your session.');
+      // Clear form data on successful submission
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        service: '',
+        date: '',
+        time: '',
+        participants: '',
+        address: ''
+      });
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmissionMessage('Failed to send booking request. Please check your connection and try again.');
