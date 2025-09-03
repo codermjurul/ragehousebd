@@ -75,36 +75,9 @@ const Header: React.FC = () => {
           </button>
 
           {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-white p-2"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
         </div>
 
         {/* Mobile Navigation */}
-        <div className={`md:hidden transition-all duration-300 ${
-          isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
-        } overflow-hidden`}>
-          <nav className="py-4 space-y-4">
-            {['Home', 'Services', 'About', 'Safety', 'Contact'].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item.toLowerCase())}
-                className="block w-full text-left text-gray-300 hover:text-white font-medium py-2 transition-colors duration-200"
-              >
-                {item}
-              </button>
-            ))}
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="w-full bg-primary hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 mt-4"
-            >
-              Book Now
-            </button>
-          </nav>
-        </div>
       </div>
     </header>
   );
