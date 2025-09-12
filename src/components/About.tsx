@@ -49,7 +49,7 @@ const About: React.FC = () => {
             </h3>
             <div className="space-y-4 text-gray-300">
               <p>
-                Founded in 2025 by Farhan Ahmed, THE RAGE HOUSE was born from a simple observation: in our fast-paced, 
+                Founded in 2025 by the one and only <b>Hasibur Rahaman Khan Mojlish</b>, THE RAGE HOUSE was born from a simple observation: in our fast-paced, 
                 high-stress world, people needed a safe, fun way to release their frustrations especially in Bangladesh!
               </p>
               <p>
