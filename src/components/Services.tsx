@@ -200,7 +200,7 @@ const Services: React.FC = () => {
                 </div>
 
                 {/* Add Person Details */}
-                {pkg.addPersonDetails && (
+                {pkg.addPersonDetails && pkg.name !== "Mini Rage" && (
                   <div className={`text-xs p-3 rounded-lg mb-6 ${
                     isUltimate 
                       ? 'bg-primary/10 border border-primary/30 text-gray-200' 
