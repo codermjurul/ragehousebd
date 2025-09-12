@@ -269,7 +269,7 @@ const Services: React.FC = () => {
               BOOK YOUR SPOTS NOW!
             </h3>
             <p className="text-gray-300 mb-6 text-lg">
-              Level 10, ZR Plaza, Dhanmondi, Dhaka
+              Rupayan ZR Plaza, Level 10, Dhanmondi, Dhaka
             </p>
             <button
               onClick={scrollToContact}
