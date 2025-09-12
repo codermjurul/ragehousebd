@@ -46,7 +46,7 @@ const About: React.FC = () => {
           <div className="space-y-6 animate-slide-up">
             <h3 className="font-display font-bold text-2xl md:text-3xl text-white">
               Our Story
-            </h3>
+            </h3> 
             <div className="space-y-4 text-gray-300">
               <p>
                 Founded in 2025 by the one and only <b>Hasibur Rahaman Khan Mojlish</b>, THE RAGE HOUSE was born from a simple observation: in our fast-paced, 
