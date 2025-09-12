@@ -66,7 +66,7 @@ const About: React.FC = () => {
           <div className="relative animate-scale-in">
             <div className="bg-gradient-to-br from-primary/20 to-transparent rounded-2xl p-8">
               <img
-                src="/hasib er chobi.HEIC"
+                src="/https://res.cloudinary.com/dankeqpe3/image/upload/v1757690327/IMG_1698_untql1.heic"
                 alt="Rage room experience"
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
               />
