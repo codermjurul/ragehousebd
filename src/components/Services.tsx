@@ -127,7 +127,7 @@ const Services: React.FC = () => {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-16">
           {packages.map((pkg, index) => {
             const IconComponent = pkg.icon;
             const isUltimate = pkg.name === "Ultimate Rage";
@@ -138,9 +138,9 @@ const Services: React.FC = () => {
                 key={pkg.name}
                 className={`relative rounded-2xl p-6 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl border-2 animate-scale-in ${
                   isUltimate
-                    ? 'bg-gradient-to-br from-primary/20 to-primary/5 border-primary shadow-lg shadow-primary/30 animate-glow lg:col-span-1 lg:row-span-1 lg:scale-110 lg:z-10' 
+                    ? 'bg-gradient-to-br from-primary/20 to-primary/5 border-primary shadow-lg shadow-primary/30 animate-glow lg:col-span-2 lg:scale-105 lg:z-10' 
                     : isSquad
-                    ? 'bg-gradient-to-br from-dark-800 to-dark-700 border-accent-orange hover:border-accent-orange/70 lg:col-span-2'
+                    ? 'bg-gradient-to-br from-dark-800 to-dark-700 border-accent-orange hover:border-accent-orange/70 lg:col-span-1'
                     : 'bg-dark-900 border-gray-700 hover:border-primary/50'
                 }`}
                 style={{animationDelay: `${index * 0.2}s`}}
