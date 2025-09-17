@@ -46,10 +46,10 @@ const About: React.FC = () => {
           <div className="space-y-6 animate-slide-up">
             <h3 className="font-display font-bold text-2xl md:text-3xl text-white">
               Our Story
-            </h3> 
+            </h3>
             <div className="space-y-4 text-gray-300">
               <p>
-                Founded in 2025 by the one and only <b>Hasibur Rahaman Khan Mojlish</b>, THE RAGE HOUSE was born from a simple observation: in our fast-paced, 
+                Founded in 2025 by Farhan Ahmed, THE RAGE HOUSE was born from a simple observation: in our fast-paced, 
                 high-stress world, people needed a safe, fun way to release their frustrations especially in Bangladesh!
               </p>
               <p>
@@ -66,7 +66,7 @@ const About: React.FC = () => {
           <div className="relative animate-scale-in">
             <div className="bg-gradient-to-br from-primary/20 to-transparent rounded-2xl p-8">
               <img
-                               src="/https://res.cloudinary.com/dankeqpe3/image/upload/v1757690327/IMG_1698_untql1.heic"
+                src="/Main Group Photo.jpeg"
                 alt="Rage room experience"
                 className="rounded-lg shadow-xl w-full h-80 object-cover"
               />
