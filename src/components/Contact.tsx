@@ -181,11 +181,11 @@ const Contact: React.FC = () => {
                     className="w-full px-4 py-3 bg-dark-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <option value="">Select a package</option>
-                    <option value="mini">Mini Rage - ৳499</option>
-                    <option value="quick">Quick Rage - ৳999</option>
-                    <option value="double">Double Rage - ৳1,599</option>
-                    <option value="ultimate">Ultimate Rage - ৳2,499</option>
-                    <option value="squad">Squad Rage - ৳4,999</option>
+                    <option value="Mini Rage">Mini Rage - ৳499</option>
+                    <option value="Quick Rage">Quick Rage - ৳999</option>
+                    <option value="Double Rage">Double Rage - ৳1,599</option>
+                    <option value="Ultimate Rage">Ultimate Rage - ৳2,499</option>
+                    <option value="Squad Rage">Squad Rage - ৳4,999</option>
                   </select>
                 </div>
               </div>

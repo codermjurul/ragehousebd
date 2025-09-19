@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
           <div className="relative animate-scale-in">
             <div className="relative overflow-hidden rounded-2xl">
               <img
-                src="/Rage House .png"
+                src="Rage House .png"
                 alt="Rage room experience"
                 className="w-full h-[500px] lg:h-[600px] object-cover"
               />
