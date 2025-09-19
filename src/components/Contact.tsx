@@ -170,7 +170,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Service Package *
+                  Package *
                   </label>
                   <select
                     name="service"
