@@ -342,7 +342,7 @@ const Contact: React.FC = () => {
                   Call Now
                 </a>
                 <a
-                  href="mailto:ragehouse24@gmail.com"
+                  href="mailto:theragehousebd@gmail.com"
                   className="bg-dark-700 hover:bg-dark-600 text-white px-6 py-3 rounded-lg font-semibold text-center transition-all duration-200"
                 >
                   Send Email
