@@ -118,7 +118,7 @@ const Services: React.FC = () => {
           <div className="flex items-center justify-center space-x-6 text-gray-300">
             <div className="flex items-center space-x-2">
               <Clock className="h-5 w-5 text-primary" />
-              <span>Open: 11AM - 9PM</span>
+              <span>Open: 1PM - 10PM</span>
             </div>
             <div className="flex items-center space-x-2">
               <span>📞 +880 13 3949 1027</span>
