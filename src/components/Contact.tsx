@@ -88,8 +88,8 @@ const Contact: React.FC = () => {
       icon: Clock,
       title: "Operating Hours",
       details: [
-        "Sat - Thu: 1PM - 11PM",
-        "Fri: 3PM - 11PM",
+        "Sat - Thu: 2PM - 10PM",
+        "Fri: 4PM - 10PM",
         "Closed on Public Holidays"
       ]
     }
