@@ -218,7 +218,7 @@ const Contact: React.FC = () => {
                     className="w-full px-4 py-3 bg-dark-700 border border-gray-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <option value="">Select time</option>
-                    <option value="2pm">2:00 PM</option>
+                    <option value="2pm">2:30 PM</option>
                     <option value="3pm">3:00 PM</option>
                     <option value="4pm">4:00 PM</option>
                     <option value="5pm">5:00 PM</option>
